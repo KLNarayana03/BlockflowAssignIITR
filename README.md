@@ -14,11 +14,15 @@ IDE : `VSCode`
 3) Make sure you have pre-installed `git` and `node.js` in your local environment.
 4) Open your IDE terminal. (In case of VSCode, press " Ctrl + ` " ).
 5) Follow the below commands to run the code:
+##
  -> 1) Clone my Github repository into your current sample folder (Make sure to follow the above steps).
    ` git clone https://github.com/KLNarayana03/BlockflowAssignIITR.git ./ `
+##
  -> 2) Install all the necessary node modules to run the code.
    ` npm i ` or ` npm install `
+##
  -> 3) Start the development server in case of Windows.
    `npm run dev`
+##
  -> 4) Go to the url of your localhost in your browser or press `Ctrl + click` the `localhost: 3000` in your command line.
    
