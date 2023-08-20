@@ -10,7 +10,7 @@ IDE : `VSCode`
 ## Steps to run the code in your local environment
 
 1) Create a sample folder on your desktop. (ex: `blockflow`).
-2) Open the folder and right-click and select the `Open with [YOUR IDE NAME]` option to open the folder in your IDE. (ex: `Open with VSCode`).
+2) Open the folder and right-click and select the `Open with [YOUR IDE NAME]` option in the `Show more options` to open the folder in your IDE. (ex: `Open with VSCode`).
 3) Make sure you have pre-installed `git` and `node.js` in your local environment.
 4) Open your IDE terminal. (In case of VSCode, press " Ctrl + ` " ).
 5) Follow the below commands to run the code:
