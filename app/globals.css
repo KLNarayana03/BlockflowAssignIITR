@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: linear-gradient(112.88deg, #E8F0FD 0.62%, #FFFFFF 99.93%);
+  color: #000;
+  overflow-y: hidden;
+}
+
+[data-theme="dark"] body{
+ background: linear-gradient(112.88deg, #1F284A 0.62%, #070B17 99.93%);
+  color:#fff;
+}
+
+.nightCircle {
+  position: relative;
+}
+
+.nightCircle::before {
+  content: "";
+  position: absolute;
+  top: -1680px;
+  left: 175px;
+  width: 1100px;
+  height: 1100px;
+  background: linear-gradient(180deg, #1d2047 100%, rgba(255, 255, 255, 0) 32.43%);
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3) ;
+  border-radius: 100%;
+  z-index: 1;
+  animation: 1s ease-in 0s alternate nightCircle;
+}
+@keyframes nightCircle {
+  from {
+    transform: translateY(2000px);
+    z-index: 1;
+  }
+
+  to {
+    transform: translateY(0px);
+    z-index: 1;
+  }
+}
+.dayCircle {
+  position: relative;
+}
+
+.dayCircle::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 175px;
+  width: 1100px;
+  height: 1100px;
+  background: linear-gradient(180deg, #FFD700 100%, rgba(255, 255, 255, 0) 32.43%);
+  box-shadow: 0px 0px 100px rgb(242, 255, 0) ;
+  border-radius: 100%;
+  z-index: 1;
+  animation: 1s ease-in 0s alternate dayCircle;
+}
+
+@keyframes dayCircle {
+  from {
+    transform: translateY(-2000px);
+    z-index: 1;
+  }
+
+  to {
+    transform: translateY(0px);
+    z-index: 1;
+  }
+}
