@@ -2,14 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Hey, This side Lakshmi Narayana K, currently pursuing 3rd Year at IIT Roorkee.
+My System Configs:
+OS : `Windows`
+IDE : `VSCode`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Steps to run the code in your local environment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1) Create a sample folder on your desktop. (ex: `blockflow`).
+2) Open the folder and right-click and select the `Open with [YOUR IDE NAME]` option to open the folder in your IDE. (ex: `Open with VSCode`).
+3) Make sure you have pre-installed `git` and `node.js` in your local environment.
+4) Open your IDE terminal. (In case of VSCode, press " Ctrl + ` " ).
+5) Follow the below commands to run the code:
+ -> 1) Clone my github repository into your sample folder.
+   ` git clone 
